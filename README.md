@@ -5,12 +5,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Yilzi Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/lib/font-awesome/6.4.0/css/all.min.css">
   <style>
     body {
       background: linear-gradient(135deg, #1A1F2E, #2E3A59);
       font-family: 'Inter', sans-serif;
-      color: #FFFFFF; /* White text for readability */
+      color: #FFFFFF;
       min-height: 100vh;
       padding: 20px 0;
     }
@@ -114,7 +114,7 @@
     </div>
     <p class="mt-6 text-lg">
       <marquee behavior="scroll" direction="left" class="marquee">
-        🌟 Last Updated: 10:14 AM WIB, Thursday, June 12, 2025 🌟
+        🌟 Last Updated: 10:20 AM WIB, Thursday, June 12, 2025 🌟
       </marquee>
     </p>
     <div class="glow w-32 h-32 top-4 left-4"></div>
