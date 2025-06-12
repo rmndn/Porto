@@ -9,406 +9,393 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body class="bg-gray-900 text-white font-sans">
-    <!-- Navbar -->
-    <nav class="fixed w-full bg-gray-800 bg-opacity-90 z-50 shadow-lg">
+    <nav class="fixed w-full bg-gray-800 bg-opacity-95 z-50 shadow-2xl transition-all duration-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex items-center justify-between h-16">
                 <div class="flex items-center">
-                    <span class="text-xl font-bold text-blue-400">Yilzi</span>
+                    <span class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 tracking-tight">Yilzi</span>
                 </div>
-                <div class="hidden md:block">
-                    <div class="ml-10 flex items-baseline space-x-4">
-                        <a href="#home" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition-all">Home</a>
-                        <a href="#about" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition-all">About</a>
-                        <a href="#skills" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition-all">Skills</a>
-                        <a href="#projects" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition-all">Projects</a>
-                        <a href="#services" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition-all">Services</a>
-                        <a href="#testimonials" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition-all">Testimonials</a>
-                        <a href="#contact" class="nav-link px-3 py-2 rounded-md text-sm font-medium hover:text-blue-400 transition-all">Contact</a>
-                    </div>
+                <div class="hidden md:flex items-center space-x-6">
+                    <a href="#home" class="nav-link px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Home</a>
+                    <a href="#about" class="nav-link px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">About</a>
+                    <a href="#skills" class="nav-link px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Skills</a>
+                    <a href="#projects" class="nav-link px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Projects</a>
+                    <a href="#services" class="nav-link px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Services</a>
+                    <a href="#testimonials" class="nav-link px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Testimonials</a>
+                    <a href="#contact" class="nav-link px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Contact</a>
                 </div>
                 <div class="md:hidden">
-                    <button class="mobile-menu-button p-2 rounded-md hover:text-blue-400 focus:outline-none">
-                        <svg class="h-6 w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <button class="mobile-menu-button p-3 rounded-full hover:bg-blue-600 hover:bg-opacity-20 focus:outline-none transition-all duration-300">
+                        <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
                         </svg>
                     </button>
                 </div>
             </div>
         </div>
-        <!-- Mobile menu -->
-        <div class="mobile-menu hidden md:hidden bg-gray-800">
-            <div class="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-                <a href="#home" class="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400">Home</a>
-                <a href="#about" class="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400">About</a>
-                <a href="#skills" class="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400">Skills</a>
-                <a href="#projects" class="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400">Projects</a>
-                <a href="#services" class="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400">Services</a>
-                <a href="#testimonials" class="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400">Testimonials</a>
-                <a href="#contact" class="block px-3 py-2 rounded-md text-base font-medium hover:text-blue-400">Contact</a>
+        <div class="mobile-menu hidden md:hidden bg-gray-800 bg-opacity-95 shadow-xl">
+            <div class="px-4 pt-4 pb-6 space-y-2">
+                <a href="#home" class="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Home</a>
+                <a href="#about" class="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">About</a>
+                <a href="#skills" class="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Skills</a>
+                <a href="#projects" class="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Projects</a>
+                <a href="#services" class="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Services</a>
+                <a href="#testimonials" class="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Testimonials</a>
+                <a href="#contact" class="block px-4 py-3 rounded-lg text-base font-medium hover:bg-blue-600 hover:bg-opacity-20 transition-all duration-300">Contact</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero Section -->
     <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
-        <div class="absolute inset-0">
-            <img src="assets/images/banner.jpg" alt="Banner" class="w-full h-full object-cover opacity-30">
-            <div class="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900/70 to-gray-900/20"></div>
+        <div class="absolute inset-0 particles">
+            <img src="assets/images/banner.jpg" alt="Banner" class="w-full h-full object-cover opacity-15 transition-transform duration-1200">
+            <div class="absolute inset-0 bg-gradient-to-br from-gray-900 via-gray-900/50 to-gray-900/10"></div>
         </div>
-        <div class="relative z-10 px-4 sm:px-6 lg:px-8 text-center">
-            <div class="mb-8">
-                <img src="assets/images/profile.jpg" alt="Profile" class="w-40 h-40 mx-auto rounded-full border-4 border-blue-400 shadow-lg object-cover">
+        <div class="relative z-10 px-6 sm:px-8 lg:px-12 text-center hero-content">
+            <div class="mb-12">
+                <div class="profile-img relative inline-block">
+                    <img src="assets/images/profile.jpg" alt="Profile" class="w-52 h-52 mx-auto rounded-full border-4 border-blue-600 shadow-2xl object-cover transition-transform duration-600">
+                </div>
             </div>
-            <h1 class="text-4xl md:text-6xl font-bold mb-4">
-                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Yilzi</span>
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6 reveal-right">
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400 gradient-text">Yilzi</span>
             </h1>
-            <div class="text-2xl md:text-3xl font-semibold mb-2 h-10">
-                <span id="typing" class="text-blue-300"></span>
+            <div class="text-2xl md:text-4xl font-semibold mb-4 h-12 reveal-left">
+                <span id="typing" class="text-blue-300 tracking-wide"></span>
             </div>
-            <div class="text-lg md:text-xl text-gray-300 mb-8 h-10">
-                <span id="typing-sub" class="text-gray-300"></span>
+            <div class="text-lg md:text-xl text-gray-200 mb-10 h-12 reveal-bottom">
+                <span id="typing-sub" class="text-gray-200 tracking-wide"></span>
             </div>
-            <div class="flex justify-center space-x-4">
-                <a href="https://github.com" class="social-icon hover:text-blue-400 transition-all">
-                    <i class="fab fa-github text-2xl"></i>
+            <div class="flex justify-center space-x-6">
+                <a href="https://github.com" class="social-icon hover:text-blue-400 transition-all duration-300">
+                    <i class="fab fa-github text-3xl"></i>
                 </a>
-                <a href="https://instagram.com" class="social-icon hover:text-pink-500 transition-all">
-                    <i class="fab fa-instagram text-2xl"></i>
+                <a href="https://www.instagram.com/yilzi_dominan/" class="social-icon hover:text-pink-500 transition-all duration-300">
+                    <i class="fab fa-instagram text-3xl"></i>
                 </a>
-                <a href="https://tiktok.com" class="social-icon hover:text-black transition-all">
-                    <i class="fab fa-tiktok text-2xl"></i>
+                <a href="https://www.tiktok.com/@yilziii" class="social-icon hover:text-black transition-all duration-300">
+                    <i class="fab fa-tiktok text-3xl"></i>
                 </a>
-                <a href="https://wa.me/yournumber" class="social-icon hover:text-green-500 transition-all">
-                    <i class="fab fa-whatsapp text-2xl"></i>
+                <a href="https://wa.me/6281359123789" class="social-icon hover:text-green-500 transition-all duration-300">
+                    <i class="fab fa-whatsapp text-3xl"></i>
                 </a>
-                <a href="https://linkedin.com" class="social-icon hover:text-blue-600 transition-all">
-                    <i class="fab fa-linkedin text-2xl"></i>
+                <a href="https://linkedin.com" class="social-icon hover:text-blue-600 transition-all duration-300">
+                    <i class="fab fa-linkedin text-3xl"></i>
                 </a>
             </div>
-            <div class="mt-12">
-                <a href="#projects" class="px-8 py-3 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full font-semibold hover:shadow-lg hover:shadow-blue-500/30 transition-all">View Projects</a>
+            <div class="mt-14 reveal-bottom">
+                <a href="#projects" class="glow-button px-10 py-4 bg-gradient-to-r from-blue-500 to-cyan-500 rounded-full font-semibold text-lg shadow-lg hover:shadow-blue-500/60 transition-all duration-400">Explore My Work</a>
             </div>
         </div>
-        <div class="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
-            <a href="#about" class="text-gray-400 hover:text-white">
-                <i class="fas fa-chevron-down text-2xl"></i>
+        <div class="absolute bottom-12 left-1/2 transform -translate-x-1/2 animate-pulse">
+            <a href="#about" class="text-gray-300 hover:text-white transition-colors duration-300">
+                <i class="fas fa-chevron-down text-3xl"></i>
             </a>
         </div>
     </section>
 
-    <!-- About Section -->
-    <section id="about" class="py-20 bg-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-blue-400 mb-4">About Me</h2>
-                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
+    <section id="about" class="py-24 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-extrabold text-blue-400 mb-6 tracking-tight reveal-right">About Me</h2>
+                <div class="section-divider w-24 h-1 mx-auto"></div>
             </div>
-            <div class="flex flex-col md:flex-row items-center">
-                <div class="md:w-1/3 mb-8 md:mb-0 flex justify-center">
-                    <div class="relative group">
-                        <img src="assets/images/profile.jpg" alt="About" class="w-64 h-64 rounded-lg object-cover shadow-xl transform group-hover:scale-105 transition-transform">
-                        <div class="absolute inset-0 bg-blue-500 opacity-0 group-hover:opacity-20 rounded-lg transition-opacity"></div>
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3 mb-10 md:mb-0 reveal-left">
+                    <div class="profile-img relative group">
+                        <img src="assets/images/profile.jpg" alt="About" class="w-72 h-72 rounded-xl object-cover shadow-2xl transform transition-transform duration-600">
                     </div>
                 </div>
-                <div class="md:w-2/3 md:pl-12">
-                    <h3 class="text-2xl font-semibold mb-4">Transforming ideas into digital experiences</h3>
-                    <p class="text-gray-300 mb-6">
-                        Hello, I'm Yilzi, a Computer Network and Telecommunications student with a deep interest in Front-End Development. I focus on creating engaging and interactive digital experiences, and always strive to provide the best solutions in every project I work on.
+                <div class="md:w-2/3 md:pl-16 reveal-right">
+                    <h3 class="text-3xl font-semibold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Crafting Digital Masterpieces</h3>
+                    <p class="text-gray-200 mb-8 leading-relaxed">
+                        Yo, I'm Yilzi, a Computer Network and Telecom student obsessed with Front-End Development. My mission? Turning raw ideas into sleek, interactive digital experiences that pop. I’m all about delivering clean code, stunning visuals, and solutions that make an impact.
                     </p>
-                    <div class="grid grid-cols-2 gap-4 mb-8">
+                    <div class="grid grid-cols-2 gap-6 mb-10">
                         <div>
-                            <p class="text-gray-400">Name:</p>
-                            <p class="font-medium">Yilzi</p>
+                            <p class="text-gray-400 font-medium">Name</p>
+                            <p class="text-lg font-semibold">Yilzi</p>
                         </div>
                         <div>
-                            <p class="text-gray-400">Email:</p>
-                            <p class="font-medium">yilzi@example.com</p>
+                            <p class="text-gray-400 font-medium">Email</p>
+                            <p class="text-lg font-semibold">yilzi@example.com</p>
                         </div>
                         <div>
-                            <p class="text-gray-400">From:</p>
-                            <p class="font-medium">Indonesia</p>
+                            <p class="text-gray-400 font-medium">From</p>
+                            <p class="text-lg font-semibold">Indonesia</p>
                         </div>
                         <div>
-                            <p class="text-gray-400">Phone:</p>
-                            <p class="font-medium">+62 123 4567 890</p>
+                            <p class="text-gray-400 font-medium">Phone</p>
+                            <p class="text-lg font-semibold">+62 813 5912 3789</p>
                         </div>
                     </div>
-                    <a href="#contact" class="px-6 py-2 bg-blue-600 rounded-full font-medium hover:bg-blue-700 transition-all">Contact Me</a>
+                    <a href="#contact" class="glow-button px-8 py-3 bg-blue-600 rounded-full font-semibold text-lg hover:bg-blue-700 shadow-lg hover:shadow-blue-500/60 transition-all duration-400">Let's Connect</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="py-20 bg-gray-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-blue-400 mb-4">My Skills</h2>
-                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
-                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Here are the technologies I work with to create amazing digital experiences</p>
+    <section id="skills" class="py-24 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-extrabold text-blue-400 mb-6 tracking-tight reveal-right">My Skills</h2>
+                <div class="section-divider w-24 h-1 mx-auto"></div>
+                <p class="text-gray-300 mt-4 max-w-3xl mx-auto leading-relaxed reveal-bottom">The tech I master to build seamless, jaw-dropping digital experiences.</p>
             </div>
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8">
-                <!-- Frontend Skills -->
-                <div class="skill-card">
+                <div class="skill-card reveal-right">
                     <div class="skill-icon bg-blue-500">
-                        <i class="fab fa-html5 text-white"></i>
+                        <i class="fab fa-html5 text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">HTML5</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-blue-500 h-2 rounded-full" style="width: 95%"></div>
+                    <h3 class="text-xl font-semibold mt-6">HTML5</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-blue-500 h-3 rounded-full" style="width: 95%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-left">
                     <div class="skill-icon bg-blue-400">
-                        <i class="fab fa-css3-alt text-white"></i>
+                        <i class="fab fa-css3-alt text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">CSS3</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-blue-400 h-2 rounded-full" style="width: 90%"></div>
+                    <h3 class="text-xl font-semibold mt-6">CSS3</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-blue-400 h-3 rounded-full" style="width: 90%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-right">
                     <div class="skill-icon bg-yellow-400">
-                        <i class="fab fa-js text-white"></i>
+                        <i class="fab fa-js text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">JavaScript</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-yellow-400 h-2 rounded-full" style="width: 85%"></div>
+                    <h3 class="text-xl font-semibold mt-6">JavaScript</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-yellow-400 h-3 rounded-full" style="width: 85%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-left">
                     <div class="skill-icon bg-cyan-500">
-                        <i class="fab fa-react text-white"></i>
+                        <i class="fab fa-react text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">React</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-cyan-500 h-2 rounded-full" style="width: 80%"></div>
+                    <h3 class="text-xl font-semibold mt-6">React</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-cyan-500 h-3 rounded-full" style="width: 80%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-right">
                     <div class="skill-icon bg-purple-500">
-                        <i class="fab fa-vuejs text-white"></i>
+                        <i class="fab fa-vuejs text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">Vue.js</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-purple-500 h-2 rounded-full" style="width: 75%"></div>
+                    <h3 class="text-xl font-semibold mt-6">Vue.js</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-purple-500 h-3 rounded-full" style="width: 75%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-left">
                     <div class="skill-icon bg-pink-500">
-                        <i class="fab fa-sass text-white"></i>
+                        <i class="fab fa-sass text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">Sass</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-pink-500 h-2 rounded-full" style="width: 85%"></div>
+                    <h3 class="text-xl font-semibold mt-6">Sass</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-pink-500 h-3 rounded-full" style="width: 85%"></div>
                     </div>
                 </div>
-                <!-- Backend Skills -->
-                <div class="skill-card">
+                <div class="skill-card reveal-right">
                     <div class="skill-icon bg-green-500">
-                        <i class="fab fa-node-js text-white"></i>
+                        <i class="fab fa-node-js text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">Node.js</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-green-500 h-2 rounded-full" style="width: 80%"></div>
+                    <h3 class="text-xl font-semibold mt-6">Node.js</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-green-500 h-3 rounded-full" style="width: 80%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-left">
                     <div class="skill-icon bg-blue-600">
-                        <i class="fab fa-php text-white"></i>
+                        <i class="fab fa-php text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">PHP</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-blue-600 h-2 rounded-full" style="width: 75%"></div>
+                    <h3 class="text-xl font-semibold mt-6">PHP</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-blue-600 h-3 rounded-full" style="width: 75%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-right">
                     <div class="skill-icon bg-emerald-500">
-                        <i class="fas fa-database text-white"></i>
+                        <i class="fas fa-database text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">MongoDB</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-emerald-500 h-2 rounded-full" style="width: 70%"></div>
+                    <h3 class="text-xl font-semibold mt-6">MongoDB</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-emerald-500 h-3 rounded-full" style="width: 70%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-left">
                     <div class="skill-icon bg-blue-700">
-                        <i class="fas fa-database text-white"></i>
+                        <i class="fas fa-database text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">MySQL</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-blue-700 h-2 rounded-full" style="width: 80%"></div>
+                    <h3 class="text-xl font-semibold mt-6">MySQL</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-blue-700 h-3 rounded-full" style="width: 80%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-right">
                     <div class="skill-icon bg-gray-800">
-                        <i class="fab fa-python text-white"></i>
+                        <i class="fab fa-python text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">Python</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-gray-800 h-2 rounded-full" style="width: 70%"></div>
+                    <h3 class="text-xl font-semibold mt-6">Python</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-gray-800 h-3 rounded-full" style="width: 70%"></div>
                     </div>
                 </div>
-                <div class="skill-card">
+                <div class="skill-card reveal-left">
                     <div class="skill-icon bg-red-500">
-                        <i class="fab fa-laravel text-white"></i>
+                        <i class="fab fa-laravel text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-lg font-semibold mt-4">Laravel</h3>
-                    <div class="w-full bg-gray-700 rounded-full h-2 mt-2">
-                        <div class="bg-red-500 h-2 rounded-full" style="width: 65%"></div>
+                    <h3 class="text-xl font-semibold mt-6">Laravel</h3>
+                    <div class="w-full bg-gray-700 rounded-full h-3 mt-4">
+                        <div class="bg-red-500 h-3 rounded-full" style="width: 65%"></div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects Section -->
-    <section id="projects" class="py-20 bg-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-blue-400 mb-4">My Projects</h2>
-                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
-                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Here are some of my recent projects that showcase my skills and expertise</p>
+    <section id="projects" class="py-24 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-extrabold text-blue-400 mb-6 tracking-tight reveal-right">My Projects</h2>
+                <div class="section-divider w-24 h-1 mx-auto"></div>
+                <p class="text-gray-300 mt-4 max-w-3xl mx-auto leading-relaxed reveal-bottom">Dive into my latest projects that showcase my skills in creating dynamic, user-focused applications.</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/project1.jpg" alt="Project 1" class="w-full h-48 object-cover rounded-t-lg">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="project-card reveal-right">
+                    <div class="project-image relative overflow-hidden">
+                        <img src="assets/images/project1.jpg" alt="Project 1" class="w-full h-56 object-cover rounded-t-xl transition-transform duration-800">
                     </div>
-                    <div class="project-content">
-                        <h3 class="text-xl font-semibold mb-2">E-commerce Website</h3>
-                        <p class="text-gray-300 mb-4">A fully responsive e-commerce platform with product filtering, cart functionality, and secure checkout.</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500 rounded-full text-xs">PHP</span>
-                            <span class="px-2 py-1 bg-green-500 rounded-full text-xs">PHP</span>
-                            <span class="px-2 py-1 bg-emerald-500 rounded-full text-xs">Laravel</span>
+                    <div class="project-content p-6">
+                        <h3 class="text-2xl font-semibold mb-3">E-commerce Platform</h3>
+                        <p class="text-gray-200 mb-5 leading-relaxed">A feature-packed e-commerce site with advanced filtering, secure checkout, and smooth UX.</p>
+                        <div class="flex flex-wrap gap-3 mb-5">
+                            <span class="px-3 py-1 bg-blue-500 rounded-full text-sm font-medium">PHP</span>
+                            <span class="px-3 py-1 bg-green-500 rounded-full text-sm font-medium">Node.js</span>
+                            <span class="px-3 py-1 bg-emerald-500 rounded-full text-sm font-medium">Laravel</span>
                         </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fas fa-external-link-alt"></i> Live</a>
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i> Code</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/project2.jpg" alt="Project 2" class="w-full h-48 object-cover rounded-t-lg">
-                    </div>
-                    <div class="project-content">
-                        <h3 class="text-xl font-semibold mb-2">Portfolio Template</h3>
-                        <p class="text-gray-300 mb-4">A modern portfolio template with smooth animations and responsive design.</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-blue-500 rounded-full text-xs">HTML</span>
-                            <span class="px-2 py-1 bg-pink-500 rounded-full text-xs">Sass</span>
-                            <span class="px-2 py-1 bg-yellow-500 rounded-full text-xs">React.js</span>
-                        </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fas fa-external-link-alt"></i> Live</a>
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i> Code</a>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-400 hover:text-blue-300 font-medium transition-colors duration-300"><i class="fas fa-external-link-alt mr-1"></i> Live</a>
+                            <a href="#" class="text-gray-300 hover:text-white font-medium transition-colors duration-300"><i class="fab fa-github mr-1"></i> Code</a>
                         </div>
                     </div>
                 </div>
-                <div class="project-card">
-                    <div class="project-image">
-                        <img src="assets/images/project3.jpg" alt="Project 3" class="w-full h-48 object-cover rounded-t-lg">
+                <div class="project-card reveal-left">
+                    <div class="project-image relative overflow-hidden">
+                        <img src="assets/images/project2.jpg" alt="Project 2" class="w-full h-56 object-cover rounded-t-xl transition-transform duration-800">
                     </div>
-                    <div class="project-content">
-                        <h3 class="text-xl font-semibold mb-2">Web Sederhana</h3>
-                        <p class="text-gray-300 mb-4">A productivity app for managing tasks with drag-and-drop functionality and team collaboration.</p>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="px-2 py-1 bg-cyan-500 rounded-full text-xs">HTML></HTML></span>
-                            <span class="px-2 py-1 bg-blue-600 rounded-full text-xs">CSS3</span>
-                            <span class="px-2 py-1 bg-blue-700 rounded-full text-xs">JavaScript</span>
+                    <div class="project-content p-6">
+                        <h3 class="text-2xl font-semibold mb-3">Portfolio Template</h3>
+                        <p class="text-gray-200 mb-5 leading-relaxed">A modern portfolio with slick animations and responsive design for all devices.</p>
+                        <div class="flex flex-wrap gap-3 mb-5">
+                            <span class="px-3 py-1 bg-blue-500 rounded-full text-sm font-medium">HTML</span>
+                            <span class="px-3 py-1 bg-pink-500 rounded-full text-sm font-medium">Sass</span>
+                            <span class="px-3 py-1 bg-yellow-500 rounded-full text-sm font-medium">React.js</span>
                         </div>
-                        <div class="flex space-x-3">
-                            <a href="#" class="text-blue-400 hover:text-blue-300"><i class="fas fa-external-link-alt"></i> Live</a>
-                            <a href="#" class="text-gray-400 hover:text-white"><i class="fab fa-github"></i> Code</a>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-400 hover:text-blue-300 font-medium transition-colors duration-300"><i class="fas fa-external-link-alt mr-1"></i> Live</a>
+                            <a href="#" class="text-gray-300 hover:text-white font-medium transition-colors duration-300"><i class="fab fa-github mr-1"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card reveal-right">
+                    <div class="project-image relative overflow-hidden">
+                        <img src="assets/images/project3.jpg" alt="Project 3" class="w-full h-56 object-cover rounded-t-xl transition-transform duration-800">
+                    </div>
+                    <div class="project-content p-6">
+                        <h3 class="text-2xl font-semibold mb-3">Task Manager</h3>
+                        <p class="text-gray-200 mb-5 leading-relaxed">A productivity app with drag-and-drop tasks, team collaboration, and clean UI.</p>
+                        <div class="flex flex-wrap gap-3 mb-5">
+                            <span class="px-3 py-1 bg-cyan-500 rounded-full text-sm font-medium">HTML</span>
+                            <span class="px-3 py-1 bg-blue-600 rounded-full text-sm font-medium">CSS3</span>
+                            <span class="px-3 py-1 bg-blue-700 rounded-full text-sm font-medium">JavaScript</span>
+                        </div>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-400 hover:text-blue-300 font-medium transition-colors duration-300"><i class="fas fa-external-link-alt mr-1"></i> Live</a>
+                            <a href="#" class="text-gray-300 hover:text-white font-medium transition-colors duration-300"><i class="fab fa-github mr-1"></i> Code</a>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="text-center mt-12">
-                <a href="#" class="px-6 py-3 bg-blue-600 rounded-full font-medium hover:bg-blue-700 transition-all inline-flex items-center">
-                    View All Projects <i class="fas fa-arrow-right ml-2"></i>
-                </a>
+            <div class="text-center mt-14 reveal-bottom">
+                <a href="#" class="glow-button px-8 py-4 bg-blue-600 rounded-full font-semibold text-lg hover:bg-blue-700 shadow-lg hover:shadow-blue-500/60 transition-all duration-400 inline-flex items-center">More Projects <i class="fas fa-arrow-right ml-2"></i></a>
             </div>
         </div>
     </section>
 
-    <!-- Services Section -->
-    <section id="services" class="py-20 bg-gray-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-blue-400 mb-4">My Services</h2>
-                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
-                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">I offer a range of services to help bring your digital ideas to life</p>
+    <section id="services" class="py-24 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-extrabold text-blue-400 mb-6 tracking-tight reveal-right">My Services</h2>
+                <div class="section-divider w-24 h-1 mx-auto"></div>
+                <p class="text-gray-300 mt-4 max-w-3xl mx-auto leading-relaxed reveal-bottom">Custom solutions to bring your digital ideas to life with style and precision.</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="service-card">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div class="service-card reveal-right">
                     <div class="service-icon bg-blue-500">
-                        <i class="fas fa-code text-white"></i>
+                        <i class="fas fa-code text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Web Development</h3>
-                    <p class="text-gray-300">Custom website development with modern technologies and responsive design for all devices.</p>
+                    <h3 class="text-2xl font-semibold mb-4">Web Development</h3>
+                    <p class="text-gray-200 leading-relaxed">Custom websites built with modern tech and responsive design.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal-left">
                     <div class="service-icon bg-purple-500">
-                        <i class="fas fa-mobile-alt text-white"></i>
+                        <i class="fas fa-mobile-alt text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Responsive Design</h3>
-                    <p class="text-gray-300">Creating websites that look and function perfectly on any device, from desktop to mobile.</p>
+                    <h3 class="text-2xl font-semibold mb-4">Responsive Design</h3>
+                    <p class="text-gray-200 leading-relaxed">Websites that look flawless on any device, big or small.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal-right">
                     <div class="service-icon bg-cyan-500">
-                        <i class="fas fa-paint-brush text-white"></i>
+                        <i class="fas fa-paint-brush text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">UI/UX Design</h3>
-                    <p class="text-gray-300">Designing intuitive and beautiful user interfaces that enhance user experience.</p>
+                    <h3 class="text-2xl font-semibold mb-4">UI/UX Design</h3>
+                    <p class="text-gray-200 leading-relaxed">Stunning, intuitive interfaces for unforgettable user experiences.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal-left">
                     <div class="service-icon bg-green-500">
-                        <i class="fas fa-shopping-cart text-white"></i>
+                        <i class="fas fa-shopping-cart text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">E-commerce Solutions</h3>
-                    <p class="text-gray-300">Building secure and scalable online stores with payment integration and inventory management.</p>
+                    <h3 class="text-2xl font-semibold mb-4">E-commerce Solutions</h3>
+                    <p class="text-gray-200 leading-relaxed">Secure, scalable online stores with seamless functionality.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal-right">
                     <div class="service-icon bg-yellow-500">
-                        <i class="fas fa-search text-white"></i>
+                        <i class="fas fa-search text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">SEO Optimization</h3>
-                    <p class="text-gray-300">Improving website visibility and ranking on search engines to drive more organic traffic.</p>
+                    <h3 class="text-2xl font-semibold mb-4">SEO Optimization</h3>
+                    <p class="text-gray-200 leading-relaxed">Boost your site's ranking to drive more organic traffic.</p>
                 </div>
-                <div class="service-card">
+                <div class="service-card reveal-left">
                     <div class="service-icon bg-red-500">
-                        <i class="fas fa-server text-white"></i>
+                        <i class="fas fa-server text-3xl text-white"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-3">Web Hosting</h3>
-                    <p class="text-gray-300">Reliable hosting solutions with high uptime, security, and performance optimization.</p>
+                    <h3 class="text-2xl font-semibold mb-4">Web Hosting</h3>
+                    <p class="text-gray-200 leading-relaxed">Reliable hosting with top-tier uptime and performance.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Testimonials Section -->
-<section id="testimonials" class="py-20 bg-gray-800">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-blue-400 mb-4">Testimoni Klien</h2>
-                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
-                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Apa yang klien katakan tentang pekerjaan dan profesionalisme saya</p>
+    <section id="testimonials" class="py-24 bg-gray-800">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-extrabold text-blue-400 mb-6 tracking-tight reveal-right">Client Testimonials</h2>
+                <div class="section-divider w-24 h-1 mx-auto"></div>
+                <p class="text-gray-300 mt-4 max-w-3xl mx-auto leading-relaxed reveal-bottom">What my clients say about my work and commitment to excellence.</p>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="testimonial-card">
-                    <div class="flex items-center mb-4">
-                        <img src="https://picsum.photos/id/237/200/200" alt="Klien" class="w-12 h-12 rounded-full object-cover mr-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+                <div class="testimonial-card reveal-right">
+                    <div class="flex items-center mb-6">
+                        <img src="https://picsum.photos/id/237/200/200" alt="Client" class="w-14 h-14 rounded-full object-cover mr-4 shadow-lg">
                         <div>
-                            <h4 class="font-semibold">Siti Aminah</h4>
-                            <p class="text-gray-400 text-sm">CEO, Solusi Teknologi</p>
+                            <h4 class="font-semibold text-lg">Siti Aminah</h4>
+                            <p class="text-gray-400 text-sm">CEO, Tech Solutions</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Yilzi mengubah situs web kami yang ketinggalan zaman menjadi platform modern dan ramah pengguna yang meningkatkan konversi online kami secara signifikan. Perhatiannya terhadap detail dan komunikasi selama proyek sangat luar biasa."</p>
-                    <div class="flex mt-4 text-yellow-400">
+                    <p class="text-gray-200 italic leading-relaxed">"Yilzi revamped our site into a modern masterpiece, boosting our conversions. His attention to detail is unreal."</p>
+                    <div class="flex mt-6 text-yellow-400">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -416,16 +403,16 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="flex items-center mb-4">
-                        <img src="https://picsum.photos/id/1027/200/200" alt="Klien" class="w-12 h-12 rounded-full object-cover mr-4">
+                <div class="testimonial-card reveal-left">
+                    <div class="flex items-center mb-6">
+                        <img src="https://picsum.photos/id/1027/200/200" alt="Client" class="w-14 h-14 rounded-full object-cover mr-4 shadow-lg">
                         <div>
-                            <h4 class="font-semibold">Budi Santoso</h4>
-                            <p class="text-gray-400 text-sm">Direktur Pemasaran, Merek Global</p>
+                            <h4 class="font-semibold text-lg">Budi Santoso</h4>
+                            <p class="text-gray-400 text-sm">Marketing Director, Global Brand</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Bekerja dengan Yilzi untuk proyek e-commerce kami sangat menyenangkan. Ia menyelesaikan pekerjaan lebih cepat dari jadwal dan menerapkan fitur-fitur yang membuat operasi backend kami jauh lebih efisien. Sangat direkomendasikan!"</p>
-                    <div class="flex mt-4 text-yellow-400">
+                    <p class="text-gray-200 italic leading-relaxed">"Yilzi delivered our e-commerce project ahead of time with features that streamlined everything. A total pro!"</p>
+                    <div class="flex mt-6 text-yellow-400">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -433,16 +420,16 @@
                         <i class="fas fa-star"></i>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="flex items-center mb-4">
-                        <img src="https://picsum.photos/id/1084/200/200" alt="Klien" class="w-12 h-12 rounded-full object-cover mr-4">
+                <div class="testimonial-card reveal-right">
+                    <div class="flex items-center mb-6">
+                        <img src="https://picsum.photos/id/1084/200/200" alt="Client" class="w-14 h-14 rounded-full object-cover mr-4 shadow-lg">
                         <div>
-                            <h4 class="font-semibold">Dewi Lestari</h4>
-                            <p class="text-gray-400 text-sm">Pendiri, Studio Kreatif</p>
+                            <h4 class="font-semibold text-lg">Dewi Lestari</h4>
+                            <p class="text-gray-400 text-sm">Founder, Creative Studio</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Kemampuan desain Yilzi sangat luar biasa. Ia menciptakan situs web portofolio yang indah untuk agensi kami yang benar-benar mewakili merek kami. Situsnya tidak hanya menawan tetapi juga berfungsi dengan sempurna."</p>
-                    <div class="flex mt-4 text-yellow-400">
+                    <p class="text-gray-200 italic leading-relaxed">"Yilzi's design game is next-level. Our portfolio site is stunning and perfectly captures our vibe."</p>
+                    <div class="flex mt-6 text-yellow-400">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -450,16 +437,16 @@
                         <i class="fas fa-star-half-alt"></i>
                     </div>
                 </div>
-                <div class="testimonial-card">
-                    <div class="flex items-center mb-4">
-                        <img src="https://picsum.photos/id/1074/200/200" alt="Klien" class="w-12 h-12 rounded-full object-cover mr-4">
+                <div class="testimonial-card reveal-left">
+                    <div class="flex items-center mb-6">
+                        <img src="https://picsum.photos/id/1074/200/200" alt="Client" class="w-14 h-14 rounded-full object-cover mr-4 shadow-lg">
                         <div>
-                            <h4 class="font-semibold">Ahmad Pratama</h4>
-                            <p class="text-gray-400 text-sm">CTO, Pusat Startup</p>
+                            <h4 class="font-semibold text-lg">Ahmad Pratama</h4>
+                            <p class="text-gray-400 text-sm">CTO, Startup Hub</p>
                         </div>
                     </div>
-                    <p class="text-gray-300 italic">"Kami mempekerjakan Yilzi untuk membangun aplikasi web yang kompleks, dan ia melampaui ekspektasi kami. Keterampilan pemecahan masalah dan keahlian teknisnya sangat unggul. Kami pasti akan bekerja dengannya lagi untuk proyek-proyek mendatang."</p>
-                    <div class="flex mt-4 text-yellow-400">
+                    <p class="text-gray-200 italic leading-relaxed">"Yilzi nailed our complex web app with top-tier skills. He's our go-to for future projects."</p>
+                    <div class="flex mt-6 text-yellow-400">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
@@ -470,132 +457,138 @@
             </div>
         </div>
     </section>
-    <!-- Contact Section -->
-    <section id="contact" class="py-20 bg-gray-900">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="text-center mb-16">
-                <h2 class="text-3xl font-bold text-blue-400 mb-4">Get In Touch</h2>
-                <div class="w-20 h-1 bg-blue-500 mx-auto"></div>
-                <p class="text-gray-400 mt-4 max-w-2xl mx-auto">Have a project in mind or want to discuss potential opportunities? Feel free to contact me!</p>
+
+    <section id="contact" class="py-24 bg-gray-900">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
+            <div class="text-center mb-20">
+                <h2 class="text-4xl font-extrabold text-blue-400 mb-6 tracking-tight reveal-right">Get In Touch</h2>
+                <div class="section-divider w-24 h-1 mx-auto"></div>
+                <p class="text-gray-300 mt-4 max-w-3xl mx-auto leading-relaxed reveal-bottom">Have a project or idea? Let’s team up and make it real—hit me up!</p>
             </div>
-            <div class="flex flex-col md:flex-row gap-12">
-                <div class="md:w-1/2">
-                    <h3 class="text-xl font-semibold mb-6">Contact Information</h3>
-                    <div class="space-y-6">
+            <div class="flex flex-col md:flex-row gap-16">
+                <div class="md:w-1/2 reveal-left">
+                    <h3 class="text-2xl font-semibold mb-8">Contact Details</h3>
+                    <div class="space-y-8">
                         <div class="flex items-start">
-                            <div class="flex-shrink-0 bg-blue-500 rounded-full p-3">
-                                <i class="fas fa-envelope text-white"></i>
+                            <div class="flex-shrink-0 bg-blue-500 rounded-full p-4">
+                                <i class="fas fa-envelope text-xl text-white"></i>
                             </div>
-                            <div class="ml-4">
-                                <h4 class="font-medium">Email</h4>
-                                <p class="text-gray-400">yilzi@example.com</p>
+                            <div class="ml-5">
+                                <h4 class="font-semibold text-lg">Email</h4>
+                                <p class="text-gray-300">yilzi@example.com</p>
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <div class="flex-shrink-0 bg-green-500 rounded-full p-3">
-                                <i class="fab fa-whatsapp text-white"></i>
+                            <div class="flex-shrink-0 bg-green-500 rounded-full p-4">
+                                <i class="fab fa-whatsapp text-xl text-white"></i>
                             </div>
-                            <div class="ml-4">
-                                <h4 class="font-medium">WhatsApp</h4>
-                                <p class="text-gray-400">+62 123 4567 890</p>
+                            <div class="ml-5">
+                                <h4 class="font-semibold text-lg">WhatsApp</h4>
+                                <p class="text-gray-300">+62 813 5912 3789</p>
                             </div>
                         </div>
                         <div class="flex items-start">
-                            <div class="flex-shrink-0 bg-gray-600 rounded-full p-3">
-                                <i class="fas fa-map-marker-alt text-white"></i>
+                            <div class="flex-shrink-0 bg-gray-600 rounded-full p-4">
+                                <i class="fas fa-map-marker-alt text-xl text-white"></i>
                             </div>
-                            <div class="ml-4">
-                                <h4 class="font-medium">Location</h4>
-                                <p class="text-gray-400">Jakarta, Indonesia</p>
+                            <div class="ml-5">
+                                <h4 class="font-semibold text-lg">Location</h4>
+                                <p class="text-gray-300">Jakarta, Indonesia</p>
                             </div>
                         </div>
                     </div>
-                    <div class="mt-10">
-                        <h4 class="font-semibold mb-4">Follow Me</h4>
-                        <div class="flex space-x-4">
-                            <a href="#" class="social-icon bg-gray-700 hover:bg-blue-600 w-10 h-10 rounded-full flex items-center justify-center transition-all">
-                                <i class="fab fa-github"></i>
+                    <div class="mt-12">
+                        <h4 class="font-semibold text-lg mb-6">Stay Connected</h4>
+                        <div class="flex space-x-6">
+                            <a href="https://github.com" class="social-icon bg-gray-700 hover:bg-blue-600 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-400">
+                                <i class="fab fa-github text-xl"></i>
                             </a>
-                            <a href="#" class="social-icon bg-gray-700 hover:bg-pink-600 w-10 h-10 rounded-full flex items-center justify-center transition-all">
-                                <i class="fab fa-instagram"></i>
+                            <a href="https://www.instagram.com/yilzi_dominan/" class="social-icon bg-gray-700 hover:bg-pink-600 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-400">
+                                <i class="fab fa-instagram text-xl"></i>
                             </a>
-                            <a href="#" class="social-icon bg-gray-700 hover:bg-blue-500 w-10 h-10 rounded-full flex items-center justify-center transition-all">
-                                <i class="fab fa-linkedin-in"></i>
+                            <a href="https://www.tiktok.com/@yilziii" class="social-icon bg-gray-700 hover:bg-black w-12 h-12 rounded-full flex items-center justify-center transition-all duration-400">
+                                <i class="fab fa-tiktok text-xl"></i>
                             </a>
-                            <a href="#" class="social-icon bg-gray-700 hover:bg-black w-10 h-10 rounded-full flex items-center justify-center transition-all">
-                                <i class="fab fa-tiktok"></i>
+                            <a href="https://wa.me/6281359123789" class="social-icon bg-gray-700 hover:bg-green-500 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-400">
+                                <i class="fab fa-whatsapp text-xl"></i>
+                            </a>
+                            <a href="https://linkedin.com" class="social-icon bg-gray-700 hover:bg-blue-500 w-12 h-12 rounded-full flex items-center justify-center transition-all duration-400">
+                                <i class="fab fa-linkedin-in text-xl"></i>
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="md:w-1/2">
-                    <form class="space-y-6">
-                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="md:w-1/2 reveal-right">
+                    <form class="space-y-8">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                             <div>
-                                <label for="name" class="block text-sm font-medium mb-1">Your Name</label>
-                                <input type="text" id="name" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+                                <label for="name" class="block text-sm font-medium mb-2">Your Name</label>
+                                <input type="text" id="name" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-5 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-400">
                             </div>
                             <div>
-                                <label for="email" class="block text-sm font-medium mb-1">Your Email</label>
-                                <input type="email" id="email" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+                                <label for="email" class="block text-sm font-medium mb-2">Your Email</label>
+                                <input type="email" id="email" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-5 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-400">
                             </div>
                         </div>
                         <div>
-                            <label for="subject" class="block text-sm font-medium mb-1">Subject</label>
-                            <input type="text" id="subject" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all">
+                            <label for="subject" class="block text-sm font-medium mb-2">Subject</label>
+                            <input type="text" id="subject" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-5 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-400">
                         </div>
                         <div>
-                            <label for="message" class="block text-sm font-medium mb-1">Your Message</label>
-                            <textarea id="message" rows="5" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-4 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"></textarea>
+                            <label for="message" class="block text-sm font-medium mb-2">Your Message</label>
+                            <textarea id="message" rows="6" class="w-full bg-gray-700 border border-gray-600 rounded-lg px-5 py-3 focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all duration-400"></textarea>
                         </div>
-                        <button type="submit" class="px-6 py-3 bg-blue-600 rounded-full font-medium hover:bg-blue-700 transition-all w-full md:w-auto">Send Message</button>
+                        <button type="submit" class="glow-button px-8 py-4 bg-blue-600 rounded-full font-semibold text-lg hover:bg-blue-700 shadow-lg hover:shadow-blue-500/60 transition-all duration-400 w-full md:w-auto">Send Message</button>
                     </form>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Footer -->
-    <footer class="bg-gray-800 py-12">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <footer class="bg-gray-800 py-16">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
             <div class="flex flex-col md:flex-row justify-between items-center">
-                <div class="mb-6 md:mb-0">
-                    <span class="text-xl font-bold text-blue-400">Yilzi</span>
-                    <p class="text-gray-400 mt-2">Transforming ideas into digital experiences</p>
+                <div class="mb-8 md:mb-0 text-center md:text-left">
+                    <span class="text-2xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Yilzi</span>
+                    <p class="text-gray-300 mt-3">Turning ideas into digital realities</p>
                 </div>
-                            <div class="flex space-x-6">
-                <a href="#" class="text-gray-400 hover:text-blue-400 transition-colors">
-                    <i class="fab fa-github text-xl"></i>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-pink-500 transition-colors">
-                    <i class="fab fa-instagram text-xl"></i>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-blue-600 transition-colors">
-                    <i class="fab fa-linkedin text-xl"></i>
-                </a>
-                <a href="#" class="text-gray-400 hover:text-green-500 transition-colors">
-                    <i class="fab fa-whatsapp text-xl"></i>
-                </a>
+                <div class="flex space-x-8">
+                    <a href="https://github.com" class="social-icon text-gray-300 hover:text-blue-400 transition-all duration-400">
+                        <i class="fab fa-github text-2xl"></i>
+                    </a>
+                    <a href="https://www.instagram.com/yilzi_dominan/" class="social-icon text-gray-300 hover:text-pink-500 transition-all duration-400">
+                        <i class="fab fa-instagram text-2xl"></i>
+                    </a>
+                    <a href="https://www.tiktok.com/@yilziii" class="social-icon text-gray-300 hover:text-black transition-all duration-400">
+                        <i class="fab fa-tiktok text-2xl"></i>
+                    </a>
+                    <a href="https://wa.me/6281359123789" class="social-icon text-gray-300 hover:text-green-500 transition-all duration-400">
+                        <i class="fab fa-whatsapp text-2xl"></i>
+                    </a>
+                    <a href="https://linkedin.com" class="social-icon text-gray-300 hover:text-blue-600 transition-all duration-400">
+                        <i class="fab fa-linkedin text-2xl"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-10 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-300 text-sm mb-6 md:mb-0">
+                    © 2023 Yilzi Portfolio. All rights reserved.
+                </p>
+                <div class="flex space-x-8">
+                    <a href="#" class="text-gray-300 hover:text-white text-sm transition-colors duration-400">Privacy Policy</a>
+                    <a href="#" class="text-gray-300 hover:text-white text-sm transition-colors duration-400">Terms of Service</a>
+                    <a href="#home" class="text-gray-300 hover:text-white text-sm transition-colors duration-400 flex items-center">
+                        Back to Top <i class="fas fa-arrow-up ml-2"></i>
+                    </a>
+                </div>
             </div>
         </div>
-        <div class="border-t border-gray-700 mt-8 pt-8 flex flex-col md:flex-row justify-between items-center">
-            <p class="text-gray-400 text-sm mb-4 md:mb-0">
-                &copy; 2023 Yilzi Portfolio. All rights reserved.
-            </p>
-            <div class="flex space-x-6">
-                <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Privacy Policy</a>
-                <a href="#" class="text-gray-400 hover:text-white text-sm transition-colors">Terms of Service</a>
-                <a href="#home" class="text-gray-400 hover:text-white text-sm transition-colors flex items-center">
-                    Back to Top <i class="fas fa-arrow-up ml-1"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</footer>
+    </footer>
 
-<button id="back-to-top" class="fixed bottom-8 right-8 bg-blue-600 text-white p-3 rounded-full shadow-lg opacity-0 invisible transition-all hover:bg-blue-700">
-    <i class="fas fa-arrow-up"></i>
-</button>
+    <button id="back-to-top" class="fixed bottom-10 right-10 bg-gradient-to-r from-blue-600 to-cyan-600 text-white p-4 rounded-full shadow-2xl opacity-0 invisible transition-all duration-600">
+        <i class="fas fa-arrow-up text-xl"></i>
+    </button>
 
-<script src="script.js"></script>
-</body> </html>
+    <script src="script.js"></script>
+</body>
+</html>
