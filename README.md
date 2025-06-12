@@ -114,7 +114,7 @@
     </div>
     <p class="mt-6 text-lg">
       <marquee behavior="scroll" direction="left" class="marquee">
-        🌟 Last Updated: 10:10 AM WIB, Thursday, June 12, 2025 🌟
+        🌟 Last Updated: 10:14 AM WIB, Thursday, June 12, 2025 🌟
       </marquee>
     </p>
     <div class="glow w-32 h-32 top-4 left-4"></div>
@@ -285,7 +285,6 @@ SOFTWARE.
         });
       });
     });
-
     // Hover effects for steps and features
     const interactives = document.querySelectorAll('.step, .feature-item');
     interactives.forEach(item => {
