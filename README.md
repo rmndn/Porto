@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://qu.ax/sHakU.jpg" alt="Arjun Portfolio Banner" width="900" style="border-radius: 15px; box-shadow: 0 8px 30px rgba(30, 144, 255, 0.4), 0 0 15px rgba(0, 191, 255, 0.2); transition: transform 0.4s ease-in-out; position: relative; z-index: 1;" onmouseover="this.style.transform='scale(1.03) rotate(2deg)';" onmouseout="this.style.transform='scale(1) rotate(0deg)';"/>
+  <img src="https://files.catbox.moe/1ru2sc.jpg" alt="Arjun Portfolio Banner" width="900" style="border-radius: 15px; box-shadow: 0 8px 30px rgba(30, 144, 255, 0.4), 0 0 15px rgba(0, 191, 255, 0.2); transition: transform 0.4s ease-in-out; position: relative; z-index: 1;" onmouseover="this.style.transform='scale(1.03) rotate(2deg)';" onmouseout="this.style.transform='scale(1) rotate(0deg)';"/>
 </p>
 
 <div style="background: linear-gradient(135deg, #1C2526, #2A3D5A); padding: 50px; border-radius: 15px; box-shadow: 0 12px 40px rgba(0, 0, 0, 0.7), inset 0 0 15px rgba(30, 144, 255, 0.1); color: #E6F3FF; font-family: 'Inter', sans-serif; text-align: center; position: relative; overflow: hidden;">
@@ -18,7 +18,7 @@
   </div>
   <p style="font-size: 18px; color: #E6F3FF; font-family: 'Inter', sans-serif;">
     <marquee behavior="scroll" direction="left" style="background: rgba(28, 37, 38, 0.8); padding: 12px 20px; border-radius: 10px; box-shadow: 0 0 15px rgba(30, 144, 255, 0.2);">
-      🌟 Last Updated: 10:00 AM WIB, Thursday, June 12, 2025 🌟
+      🌟 Last Updated: 12:42 AM WIB, Thursday, June 29, 2025 🌟
     </marquee>
   </p>
   <div style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: radial-gradient(circle, rgba(30, 144, 255, 0.1) 0%, transparent 60%); z-index: 0;"></div>
